@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Advice App</string>
+    <string name="app_name">AdviceCat</string>
+    <string name="house_button_text">Where to live?</string>
+
+
+    <string name="house_prompt">Choose a building style</string>
+    <string name="house_text_description">Select from the dropdown</string>
+
+    <string-array name="house_style_arrays">
+        <item>I like to be at one with nature.</item>
+        <item>I am not afraid of fires.</item>
+        <item>I like things to be safe and solid.</item>
+    </string-array>
 </resources>
