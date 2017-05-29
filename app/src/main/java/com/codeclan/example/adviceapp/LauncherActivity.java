@@ -9,6 +9,8 @@ import android.widget.Button;
 public class LauncherActivity extends AppCompatActivity {
     private Button buildButton;
     private Button marriageButton;
+    private Button buyButton;
+    private Button careerButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +18,9 @@ public class LauncherActivity extends AppCompatActivity {
         setContentView(R.layout.activity_launcher);
         buildButton = (Button) findViewById(R.id.build_button);
         marriageButton = (Button) findViewById(R.id.marriage_button);
+        buyButton = (Button) findViewById(R.id.buy_button);
+        careerButton = (Button) findViewById(R.id.career_button);
+
     }
 
     public void onBuildButtonClick(View button) {
@@ -26,6 +31,19 @@ public class LauncherActivity extends AppCompatActivity {
     public void onMarriageButtonClick(View button) {
         Intent intent = new Intent(this, MarriageAdviceChoiceActivity.class);
         startActivity(intent);
-
     }
+
+    public void onBuyButtonClick(View button) {
+        Intent intent = new Intent(this, BuyAdviceChoiceActivity.class);
+        startActivity(intent);
+    }
+
+    public void onCareerButtonClick(View button) {
+        Intent intent = new Intent(this, CareerAdviceChoiceActivity.class);
+        startActivity(intent);
+    }
+
+
+
+
 }

@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".AdviceChoiceActivity"
-            android:parentActivityName=".LauncherActivity"></activity>
+            android:parentActivityName=".LauncherActivity" />
         <activity
             android:name=".AnswerActivity"
             android:parentActivityName=".AdviceChoiceActivity" />
@@ -21,7 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MarriageAdviceChoiceActivity"></activity>
+        <activity android:name=".MarriageAdviceChoiceActivity" />
+        <activity android:name=".BuyAdviceChoiceActivity" />
+        <activity android:name=".CareerAdviceChoiceActivity"></activity>
     </application>
 
 </manifest>
