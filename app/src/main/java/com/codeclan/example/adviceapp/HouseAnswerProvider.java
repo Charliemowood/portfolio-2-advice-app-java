@@ -10,10 +10,6 @@ import java.util.Random;
 public class HouseAnswerProvider {
     private ArrayList<String> answers;
 
-    public HouseAnswerProvider(ArrayList<String> answers) {
-        this.answers = answers;
-    }
-
     public HouseAnswerProvider() {
         this.answers = new ArrayList<>();
         setupDefaultAnswers();

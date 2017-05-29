@@ -5,6 +5,11 @@
 
     <string name="house_prompt">Choose a building style</string>
     <string name="house_text_description">Select from the dropdown</string>
+    <string name="intro_text">What do you need advice with today?</string>
+    <string name="button_build">Building A House</string>
+    <string name="marriage_button">Marriage</string>
+    <string name="buy_button">Buy something</string>
+    <string name="career_change">Career Change</string>
 
     <string-array name="house_style_arrays">
         <item>I like to be at one with nature.</item>
