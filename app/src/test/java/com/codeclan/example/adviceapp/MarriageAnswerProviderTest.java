@@ -24,7 +24,7 @@ public class MarriageAnswerProviderTest {
     @Test
     public void defaultAnswer2() {
         MarriageAnswerProvider provider = new MarriageAnswerProvider();
-        assertEquals("You need time time to make sure you are sure.", provider.getAnswerAtIndex(1));
+        assertEquals("You need to spend more time on this decision.", provider.getAnswerAtIndex(1));
     }
 
     @Test

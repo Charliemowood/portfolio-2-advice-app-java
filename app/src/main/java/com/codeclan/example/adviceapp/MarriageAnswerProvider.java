@@ -19,7 +19,7 @@ public class MarriageAnswerProvider {
     private void setupDefaultAnswers() {
         String[] defaultAnswers = {
                 "Yep, definitely get married!",
-                "You need time time to make sure you are sure.",
+                "You need to spend more time on this decision.",
                 "Sorry, this is not the right time to get married."
         };
         for (String answer : defaultAnswers) {
