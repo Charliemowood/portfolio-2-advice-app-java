@@ -1,7 +1,6 @@
 package com.codeclan.example.adviceapp;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 /**
  * Created by home on 5/29/17.
@@ -42,12 +41,6 @@ public class MarriageAnswerProvider {
 
     public String getAnswerAtIndex(int i) {
         return this.answers.get(i);
-    }
-
-    public String getAnswer() {
-        Random rand = new Random();
-        int index = rand.nextInt(getNumberOfAnswers());
-        return getAnswerAtIndex(index);
     }
 
 
