@@ -21,12 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MarriageAdviceChoiceActivity"
-            android:parentActivityName=".LauncherActivity"/>
-        <activity android:name=".BuyAdviceChoiceActivity"
-            android:parentActivityName=".LauncherActivity"/>
-        <activity android:name=".CareerAdviceChoiceActivity"
-            android:parentActivityName=".LauncherActivity"></activity>
+        <activity
+            android:name=".MarriageAdviceChoiceActivity"
+            android:parentActivityName=".LauncherActivity" />
+        <activity
+            android:name=".BuyAdviceChoiceActivity"
+            android:parentActivityName=".LauncherActivity" />
+        <activity
+            android:name=".CareerAdviceChoiceActivity"
+            android:parentActivityName=".LauncherActivity" />
+        <activity android:name=".MarriageAnswerActivity"></activity>
     </application>
 
 </manifest>

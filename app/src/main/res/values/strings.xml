@@ -10,10 +10,24 @@
     <string name="marriage_button">Marriage</string>
     <string name="buy_button">Buy something</string>
     <string name="career_change">Career Change</string>
+    <string name="marriage_text_description">On a scale of one to ten, how much do you want to get married?</string>
 
     <string-array name="house_style_arrays">
         <item>I like to be at one with nature.</item>
         <item>I am not afraid of fires.</item>
         <item>I like things to be safe and solid.</item>
+    </string-array>
+
+    <string-array name="marriage_style_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 </resources>
