@@ -33,8 +33,10 @@
         <activity
             android:name=".MarriageAnswerActivity"
             android:parentActivityName=".MarriageAdviceChoiceActivity" />
-        <activity android:name=".BuyAnswerActivity" />
-        <activity android:name=".CareerAnswerActivity"></activity>
+        <activity android:name=".BuyAnswerActivity"
+            android:parentActivityName=".BuyAdviceChoiceActivity"/>
+        <activity android:name=".CareerAnswerActivity"
+            android:parentActivityName=".CareerAdviceChoiceActivity"/>
     </application>
 
 </manifest>
