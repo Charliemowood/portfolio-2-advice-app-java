@@ -20,6 +20,12 @@
         <item>I like things to be safe and solid.</item>
     </string-array>
 
+    <string-array name="career_style_arrays">
+        <item>I fix all my families technological problems.</item>
+        <item>I have got green fingers.</item>
+        <item>I am smart but I like to take risks..</item>
+    </string-array>
+
     <string-array name="marriage_style_arrays">
         <item>1</item>
         <item>2</item>
