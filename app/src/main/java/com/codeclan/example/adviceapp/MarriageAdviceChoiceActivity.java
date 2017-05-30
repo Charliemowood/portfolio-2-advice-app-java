@@ -7,9 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
 
+import java.util.Objects;
+
 public class MarriageAdviceChoiceActivity extends AppCompatActivity {
-    Button marriageButtonSubmit;
-    Spinner spinnerMarriage;
+    private Button marriageButtonSubmit;
+    private Spinner spinnerMarriage;
+    private MarriageAnswerProvider provider = new MarriageAnswerProvider();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +23,22 @@ public class MarriageAdviceChoiceActivity extends AppCompatActivity {
     }
 
     public void onMarriageButtonSubmitClick(View button) {
-        MarriageAnswerProvider provider = new MarriageAnswerProvider();
-        String answer = provider.getAnswerAtIndex(0);
+        String number = spinnerMarriage.getSelectedItem().toString();
+        if (Objects.equals(number, "10")) {
+            String answer = provider.getAnswerAtIndex(0);
+            intentMethod(answer);
+        } else if (Objects.equals(number, "9")){
+            String answer = provider.getAnswerAtIndex(1);
+            intentMethod(answer);
+        } else {
+            String answer = provider.getAnswerAtIndex(2);
+            intentMethod(answer);
+        }
+
+
+    }
+
+    private void intentMethod(String answer) {
         Intent intent = new Intent(this, MarriageAnswerActivity.class);
         intent.putExtra("answer", answer);
         startActivity(intent);
