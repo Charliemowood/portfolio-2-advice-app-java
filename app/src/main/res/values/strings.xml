@@ -11,6 +11,7 @@
     <string name="buy_button">Buy something</string>
     <string name="career_change">Career Change</string>
     <string name="marriage_text_description">On a scale of one to ten, how much do you want to get married?</string>
+    <string name="marriage_submit_button">Submit</string>
 
     <string-array name="house_style_arrays">
         <item>I like to be at one with nature.</item>
