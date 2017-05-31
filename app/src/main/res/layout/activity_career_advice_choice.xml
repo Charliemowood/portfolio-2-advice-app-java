@@ -8,21 +8,20 @@
 
     <Button
         android:id="@+id/career_answer_button"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="34dp"
-        android:background="@android:color/holo_green_dark"
         android:onClick="onCareerButtonClick"
         android:text="@string/button_description_career"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_buy"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.039" />
 
     <TextView
         android:id="@+id/career_advice_question"
@@ -32,7 +31,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="119dp"
+        android:layout_marginTop="121dp"
         android:text="@string/career_advice"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -49,6 +48,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.351" />
 
 </android.support.constraint.ConstraintLayout>

@@ -4,7 +4,7 @@
 
 
     <string name="house_prompt">Choose a building style</string>
-    <string name="house_text_description">Select from the dropdown</string>
+    <string name="house_text_description">What kind kind of house would you like to build? Choose from the dropdown the statement you like best.</string>
     <string name="intro_text">What do you need advice with today?</string>
     <string name="button_build">Building A House</string>
     <string name="marriage_button">Marriage</string>
@@ -15,6 +15,7 @@
     <string name="career_advice">What kind of career would like? Choose from the dropdown the statement you like best.</string>
     <string name="test_view_buy">Mark on a scale of 1 - 5 to what extent buying this item will be positive for you (1 is bad, 5 is good).</string>
     <string name="button_description_career">Find out career</string>
+    <string name="buy_button_description">Buy or not?</string>
 
     <string-array name="house_style_arrays">
         <item>I like to be at one with nature.</item>
