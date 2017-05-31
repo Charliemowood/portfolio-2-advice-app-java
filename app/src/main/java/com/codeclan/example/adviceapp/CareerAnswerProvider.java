@@ -26,18 +26,6 @@ public class CareerAnswerProvider {
         }
     }
 
-    public ArrayList<String> getAnswers() {
-        return new ArrayList<>(this.answers);
-
-    }
-
-    public int getNumberOfAnswers() {
-        return this.answers.size();
-    }
-
-    public void add(String answer) {
-        this.answers.add(answer);
-    }
 
     public String getAnswerAtIndex(int i) {
         return this.answers.get(i);
