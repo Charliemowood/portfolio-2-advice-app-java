@@ -24,10 +24,10 @@ public class CareerAdviceChoiceActivity extends AppCompatActivity {
 
     public void onCareerButtonClick(View button) {
         String text = careerSpinner.getSelectedItem().toString();
-        if (Objects.equals(text, "I like to be at one with nature.")) {
+        if (Objects.equals(text, "I fix all my families technological problems.")) {
             String answer = provider.getAnswerAtIndex(0);
             getAnswerOpenIntent(answer);
-        } else if (Objects.equals(text, "I am not afraid of fires.")) {
+        } else if (Objects.equals(text, "I have got green fingers.")) {
             String answer = provider.getAnswerAtIndex(1);
             getAnswerOpenIntent(answer);
         } else {
