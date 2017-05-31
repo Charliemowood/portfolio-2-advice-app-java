@@ -23,10 +23,10 @@ public class BuyAdviceChoiceActivity extends AppCompatActivity {
     }
     public void onBuyButtonClick(View button) {
         String number = buySpinner.getSelectedItem().toString();
-        if (Objects.equals(number, "10")) {
+        if (Objects.equals(number, "5")) {
             String answer = provider.getAnswerAtIndex(0);
             intentMethod(answer);
-        } else if (Objects.equals(number, "9")){
+        } else if (Objects.equals(number, "4")){
             String answer = provider.getAnswerAtIndex(1);
             intentMethod(answer);
         } else {

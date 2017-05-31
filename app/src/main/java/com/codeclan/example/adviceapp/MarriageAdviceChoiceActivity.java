@@ -24,10 +24,10 @@ public class MarriageAdviceChoiceActivity extends AppCompatActivity {
 
     public void onMarriageButtonSubmitClick(View button) {
         String number = spinnerMarriage.getSelectedItem().toString();
-        if (Objects.equals(number, "10")) {
+        if (Objects.equals(number, "5")) {
             String answer = provider.getAnswerAtIndex(0);
             intentMethod(answer);
-        } else if (Objects.equals(number, "9")){
+        } else if (Objects.equals(number, "4")){
             String answer = provider.getAnswerAtIndex(1);
             intentMethod(answer);
         } else {
