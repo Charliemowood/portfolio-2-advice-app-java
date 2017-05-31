@@ -10,12 +10,6 @@ import static org.junit.Assert.*;
 public class HouseAnswerProviderTest {
 
     @Test
-    public void answerAreNotNull() {
-        HouseAnswerProvider provider = new HouseAnswerProvider();
-        assertNotNull(provider.getAnswers());
-    }
-
-    @Test
     public void defaultAnswer1() {
         HouseAnswerProvider provider = new HouseAnswerProvider();
         assertEquals("You should build a house with earth bags.", provider.getAnswerAtIndex(0));

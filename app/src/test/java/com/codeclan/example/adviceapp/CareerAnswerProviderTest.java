@@ -8,11 +8,6 @@ import static org.junit.Assert.*;
  * Created by home on 5/29/17.
  */
 public class CareerAnswerProviderTest {
-    @Test
-    public void answerAreNotNull() {
-        CareerAnswerProvider provider = new CareerAnswerProvider();
-        assertNotNull(provider.getAnswers());
-    }
 
     @Test
     public void defaultAnswer1() {

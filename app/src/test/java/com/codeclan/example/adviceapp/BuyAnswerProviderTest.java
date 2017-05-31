@@ -9,12 +9,6 @@ import static org.junit.Assert.*;
  */
 public class BuyAnswerProviderTest {
 
-    @Test
-    public void answerAreNotNull() {
-
-        BuyAnswerProvider provider = new BuyAnswerProvider();
-        assertNotNull(provider.getAnswers());
-    }
 
     @Test
     public void defaultAnswer1() {
