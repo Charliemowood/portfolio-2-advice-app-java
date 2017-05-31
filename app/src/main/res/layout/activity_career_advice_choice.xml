@@ -31,7 +31,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="121dp"
+        android:layout_marginTop="119dp"
         android:text="@string/career_advice"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
