@@ -4,7 +4,7 @@
 * Java
 * Junit
 
-# Task
+## Task
 
 Make an app that provides advice based on user input. The app aims to make use of a wide range of advanced UI features in Android.
 
